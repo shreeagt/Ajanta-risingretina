@@ -539,7 +539,8 @@ color: #F36C2C;
 }
  .site-navigation ul.navigation > li > a {
      display: block;
-     margin: 0px 20px;
+     /* margin: 0px 20px; */
+     margin: 0px 9px;
      padding: 0px;
      text-decoration: none;
      position: relative;
@@ -571,6 +572,7 @@ color: #F36C2C;
      font-family: var(--pbmit-heading-typography-font-family);
      font-weight: 800;
      font-size: 16px;
+     font-size: 15px;
 }
  .main-menu .navigation > li {
      position: relative;

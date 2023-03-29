@@ -175,6 +175,11 @@ body {
     .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
         max-width: none;
     }
+
+	.pbmit-pre-header-left .pbmit-label {
+		display: none;
+	}
+	
 	.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
 		padding-right: calc(var(--bs-gutter-x) * .8);
 		padding-left: calc(var(--bs-gutter-x) * .8);
@@ -1160,9 +1165,7 @@ body {
 	}
 }
 @media (max-width: 1500px){
-	.pbmit-pre-header-left .pbmit-label {
-		display: none;
-	}
+
 }
 @media only screen and (max-width: 1024px) and (min-width: 768px){
 /** project-single-detail **/	

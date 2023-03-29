@@ -233,14 +233,14 @@
     /*-------------------------------------
       Add plus icon in menu
       -------------------------------------*/
-    $( ".main-menu ul.navigation li.dropdown").append( "<span class='righticon'><i class='ti-angle-down'></i></span>" );
+    // $( ".main-menu ul.navigation li.dropdown").append( "<span class='righticon'><i class='ti-angle-down'></i></span>" );
     
     /*-------------------------------------
     Responsive Menu
     -------------------------------------*/ 
     $('.main-menu ul.navigation li.dropdown .righticon').on('click', function() {
-           $(this).siblings().toggleClass('open');
-           $(this).find('i').toggleClass('ti-angle-down ti-angle-up');
+          //  $(this).siblings().toggleClass('open');
+          //  $(this).find('i').toggleClass('ti-angle-down ti-angle-up');
            return false;
     });  
 

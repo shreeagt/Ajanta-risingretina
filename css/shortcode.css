@@ -933,7 +933,9 @@ div#clock span:first-child {
     bottom: 0;
     left: 0;
     right: 0;
-    background: rgba(230, 43, 74, .8);
+    /* background: rgba(230, 43, 74, .8); */
+    background: rgba(243, 108, 44, .8);
+
     overflow: hidden;
     width: 0;
     height: 100%;
@@ -1501,9 +1503,11 @@ background-color: #F36C2C;
     color: var(--pbmit-secondary-color);
 }
 .header-style-1 .pbmit-pre-header-left .pbmit-label {
-    font-weight: 700;
+    /* font-weight: 700; */
+    font-weight: bold;
     text-transform: uppercase;
-    margin-right: 6px;
+    margin-right: 15px;
+
 }
 .header-style-1 .pbmit-pre-header-left .pbmit-label i{
     padding-left: 5px;
@@ -1898,19 +1902,21 @@ background-color: #222021;
     position: relative;
 }
 .pbmit-footer-logo {
-    max-height: 60px;
+    /* max-height: 60px; */
 }
 .pbmit-footer-logo:after {
     position: absolute;
     content: '';
     width: 1px;
     height: 49px;
+    height: 100%;
     right: 0;
     top: 0;
     background-color: rgb(0 0 0 / 12%);
 }
 .pbmit-footer-big-area .pbmit-footer-logo img {
-    height: 50px;
+    /* height: 50px; */
+    height: 120px;
 }
 .pbmit-footer-big-area .pbmit-footer-boxes.col-md-6 {
     -ms-flex: none;
@@ -2101,7 +2107,7 @@ ul.pbmit-timelist-list .pbmit-timelist-li-value {
 /*----------------------------------------*/
 .pbmit-title-bar-wrapper {
     background-color: #f6f6f6;
-    background-image: url('../images/bg/title.jpg');
+    background-image: url('../images/bg/title.png');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
