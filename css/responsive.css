@@ -218,7 +218,7 @@ body {
 		border-bottom: 1px solid rgba(9, 22, 42, 0.15); 
 	}
 	.site-header .site-navigation .dropdown ul li.active > a { 
-		color: var(--pbmit-global-color);
+		color: #F36C2C;
 	}
     .main-menu .navigation > li > ul,
 	.main-menu .navigation > li > ul > li > ul {
