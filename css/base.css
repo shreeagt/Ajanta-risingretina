@@ -382,6 +382,7 @@ background-color: #F36C2C;
 background-color: #F36C2C;
 background-color: #F36C2C;
 color: #F36C2C;
+color:#fff;
 }
  .pbmit-btn-hover-secondary:hover, .pbmit-btn.pbmit-btn-secondary{
      background-color: var(--pbmit-blackish-color);

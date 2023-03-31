@@ -1,3 +1,5 @@
+
+
 <html class="no-js" lang="en">
     <head>
     <meta charset="utf-8">
@@ -38,7 +40,7 @@
     <link rel="stylesheet" href="css/responsive.css">
     <!-- REVOLUTION STYLE SHEETS -->
     <link rel="stylesheet" type="text/css" href="revolution/rs6.css">
-
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
  </head>
 
  <style>
@@ -75,6 +77,8 @@ background-color: #F36C2C;
 }
 
  </style>
+
+ 
  <body data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
     <!-- page wrapper -->
     <div class="page-wrapper">
@@ -261,24 +265,24 @@ background-color: #F36C2C;
                            <h3>
                               Online Inquiry Form</h3>
                            <p>Please fill in the below form and submit. We would get back to you very soon.</p>
-                           <form class="contact-form">
+                           <form class="contact-form" action="inquiryconnect.php" method="post">
                               <div class="row">
                                  <div class="col-md-6 col-sm-12">
                                     <div class="contact-form-section">
                                        <label for="">Name<span>*</span></label>
-                                       <input type="text" class="form-control" placeholder="Name" name="name">
+                                       <input type="text" class="form-control" placeholder="Name" name="name" required>
                                     </div>
                                  </div>
                                  <div class="col-md-3 col-sm-12">
                                     <div class="contact-form-section">
                                        <label for="">Age<span>*</span></label>
-                                       <input type="number" class="form-control" id="age" placeholder="" name="age">
+                                       <input type="number" class="form-control" id="age" placeholder="" name="age" required>
                                     </div>
                                  </div>
                                  <div class="col-md-3 col-sm-12">
                                     <div class="contact-form-section">
                                        <label for="">Select unit of time<span>*</span></label>
-                                       <select name="ageunit" id="ageunit" class="form-control">
+                                       <select name="ageunit" id="ageunit" class="form-control" required>
                                           <option value="" disabled selected>Select unit of time</option>
                                           <option value="months">Months</option>
                                           <option value="days">Days</option>
@@ -296,7 +300,7 @@ background-color: #F36C2C;
                                  <div class="col-md-3 col-sm-12">
                                     <div class="contact-form-section">
                                        <label for="">City<span>*</span></label>
-                                       <input type="text" id="city" name="city" class="form-control" placeholder="City" name="city">
+                                       <input type="text" id="city" name="city" class="form-control" placeholder="City" required>
                                     </div>
                                  </div>
                                  <div class="col-md-3 col-sm-12">
@@ -324,10 +328,10 @@ background-color: #F36C2C;
                                  <div class="col-md-6 col-sm-12">
                                     <div class="contact-form-section">
                                        <label for="">Type of Inquiry<span>*</span></label>
-                                       <select name="InquiryType" id="InquiryType" class="form-control">
+                                       <select name="inquiry_type" id="inquiry_type" class="form-control" required>
                                           <option value="" disabled selected>Type of Inquiry</option>
-                                          <option value="months">Request for an Appointment</option>
-                                          <option value="days">General</option>
+                                          <option value="Request for an Appointment">Request for an Appointment</option>
+                                          <option value="General">General</option>
                                         </select>
                                     </div>
                                  </div>
@@ -335,10 +339,13 @@ background-color: #F36C2C;
                                  <div class="col-md-12 col-sm-12">
                                     <div class="contact-form-section">
                                        <label for="">Details</label>
-                                       <textarea class="form-control" name="address" rows="4" placeholder="details" style="height: 100px;"></textarea>
+                                       <textarea class="form-control" name="details" rows="4" placeholder="details" style="height: 100px;"></textarea>
                                     </div>
                                  </div>
 
+                                 <div class="col-md-12">
+                                 <div class="g-recaptcha" data-sitekey="6LfFj0klAAAAAKKOOFErwQrbTyQIG1-FIpj192UR"></div>
+                                 </div>
                                  <div class="col-md-12 col-sm-12 pb-4">
                                     <button type="submit" class="pbmit-btn pbmit-btn-hover-secondary">Submit</button>
                                  </div>
@@ -1286,7 +1293,7 @@ background-color: #F36C2C;
                          <h3 class="widget-title">Newsletter</h3>
                          <div>Sign up today for hints, tips and the latest product news
                             <div class="pbmit-footer-newsletter">
-                               <input type="email" name="EMAIL" placeholder="Your email address" required="">	
+                               <input type="email"  placeholder="Your email address" required="">	
                                <button type="submit" value="Sign up">Submit 
                                   <!-- <i class="pbmit-base-icon-paper-plane"></i> -->
                                   <!-- <i class="pbmit-base-icon-paper-plane"></i> -->
@@ -1363,6 +1370,8 @@ background-color: #F36C2C;
        </div>
     </div> -->
  <!-- Search Box End Here -->
+
+
 
     <!-- JS
        ============================================ -->
