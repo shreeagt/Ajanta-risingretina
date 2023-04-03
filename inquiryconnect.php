@@ -1,20 +1,22 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "retinadb";
 
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
+include 'dbconnection.php';
+// $servername = "localhost";
+// $username = "root";
+// $password = "";
+// $dbname = "retinadb";
 
-// Check connection
-if ($conn->connect_error) {
-  die("Connection failed: " . $conn->connect_error);
-}
+// $conn = new mysqli($servername, $username, $password, $dbname);
+
+
+// if ($conn->connect_error) {
+//   die("Connection failed: " . $conn->connect_error);
+// }
 
 // Verify the reCAPTCHA response
 $recaptcha_response = $_POST['g-recaptcha-response'];
 $url = 'https://www.google.com/recaptcha/api/siteverify';
+
 $data = array(
   'secret' => '6LfFj0klAAAAANRFWiBBVVEIwv4visNrLh0jOpE4',
   'response' => $recaptcha_response
@@ -29,9 +31,9 @@ $context  = stream_context_create($options);
 $verify = file_get_contents($url, false, $context);
 $captcha_success = json_decode($verify);
 
-// Check if the reCAPTCHA was successful
+
 if (!$captcha_success->success) {
-  // The reCAPTCHA was not successful, display an error message
+
   echo '<p>Please check the reCAPTCHA box and try again.</p>';
   exit;
 }
