@@ -557,6 +557,11 @@ color: #6A2A04;
     color: #F36C2C;
 color: #F36C2C;
 }
+
+ .active > a{
+    color: #F36C2C;
+color: #F36C2C;
+}
 .site-header .site-navigation ul.navigation > li.active > a:after{
     color: #F36C2C;
 color: #F36C2C;

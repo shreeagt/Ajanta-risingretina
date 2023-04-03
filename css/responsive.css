@@ -513,6 +513,7 @@ body {
 	}
 }
 @media(max-width:991px) {
+
     /** Section Padding **/
 	.section-lg{ 
 		padding-top: 80px; 
@@ -544,7 +545,12 @@ body {
 	.pbmit-header-style-2 .pbmit-title-bar-content, 
 	.pbmit-header-style-2 .pbmit-title-bar-wrapper{
 		min-height: 350px;
-	}	
+	}
+	
+	.pbmit-title-bar-content {
+		padding-left: 0;
+	}
+
 	/*=== Homepage 1 ===*/
 	.bg-color-section-home1{
 		margin-top: -895px;
