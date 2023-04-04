@@ -551,6 +551,17 @@ body {
 		padding-left: 0;
 	}
 
+	.tab-content img {
+		max-width: 100%;
+		height: auto;
+		margin: 10px;
+	}
+
+	.service-right-col {
+		padding-top: 0px;
+		padding-bottom: 50px;
+	}
+
 	/*=== Homepage 1 ===*/
 	.bg-color-section-home1{
 		margin-top: -895px;
