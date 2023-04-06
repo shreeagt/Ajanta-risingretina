@@ -4,10 +4,13 @@
     <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Rising Retina Clinic Ahmedabad Gujarat India</title>
+    <title>Risingretina Eye Hospital in Ahmedabad</title>
     <meta name="robots" content="noindex, follow">
-    <meta name="description" content="">
+    <link rel="canonical" href="https://risingretina.matrixpanel.in/inquiry.php" />
+    <meta name="description" content="If you're looking for a top-rated eye hospital in Ahmedabad, Risingretina Eye Hospital in Satellite, specifically at Shivranjani Cross Roads, may be a great option. Their expert eye doctor and surgeon (ophthalmologist) can provide high-quality care if you're in need of an eye center specialist near you.">
+    <meta name="keywords" content="Eye Hospital in Ahmedabad, Eye Doctor in Ahmedabad, Eye Specialist in Ahmedabad, Best Eye Hospital in Ahmedabad, Retina Specialist in Ahmedabad, Eye Care Hospital Ahmedabad, Eye health tips"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
     <!-- Favicon -->
        <link rel="shortcut icon" type="image/x-icon" href="images/logo.jpg">
     <!-- CSS
@@ -240,12 +243,12 @@ background-color: #F36C2C;
             <div class="pbmit-title-bar-content-inner">
                <div class="pbmit-tbar">
                   <div class="pbmit-tbar-inner container">
-                     <h1 class="pbmit-tbar-title"> Get Pumbed Up <br/> about Vision</h1>
+                     <h1 class="pbmit-tbar-title"> Transforming Vision Health <br/> at Rising Retina</h1>
                   </div>
                </div>
                <!-- <div class="pbmit-breadcrumb">
                   <div class="pbmit-breadcrumb-inner">
-                     <span><a title="" href="#" class="home"><span>Rising Retina Clinic</span></a></span>
+                     <span><a title="" href="/" class="home"><span>Rising Retina Clinic</span></a></span>
                      <span class="sep"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
                      <span><span class="post-root post post-post current-item">Infrastructure</span></span>
                   </div>
