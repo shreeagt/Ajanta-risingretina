@@ -2105,14 +2105,14 @@ ul.pbmit-timelist-list .pbmit-timelist-li-value {
 /*----------------------------------------*/
 /*  11 - Title Bar
 /*----------------------------------------*/
-.pbmit-title-bar-wrapper {
+/* .pbmit-title-bar-wrapper {
     background-color: #f6f6f6;
     background-image: url('../images/bg/title.png');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     background-attachment: scroll;
-}
+} */
 
 .pbmit-title-bar-wrapper::before{
     display: block;
