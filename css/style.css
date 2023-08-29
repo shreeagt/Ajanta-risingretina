@@ -36,6 +36,15 @@ img.mfp-img {
 
 }
 
+
+.about-img-one {
+    text-align: center;
+    border: 1px solid;
+    border-radius: 10px;
+    background: #6f320d;
+    color: #fff;
+}
+
 .appointment-section-home1{
     background-image: url('/images/bg/bg-01.jpg');
     background-position: top left;
