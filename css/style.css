@@ -36,6 +36,9 @@ img.mfp-img {
 
 }
 
+.fs-17 {
+    font-size: 17px;
+}
 
 .about-img-one {
     text-align: center;
@@ -1062,6 +1065,23 @@ background-color: #222021;
     position: relative;
     padding: 0 0 15px;
     margin-bottom: 30px;
+}
+.widget-title span {
+    font-size: 12px;
+    color: #666666;
+}
+.pbmit-footer-contact-info-wrap .whatsapp-icon {
+    display: inline-block;
+    width: 33px;
+    height: 38px;
+    line-height: 40px;
+    text-align: center;
+    margin-right: 10px;
+    font-size: 25px;
+    color: #000;
+    border-radius: 50%;
+    font-weight: normal;
+    background-color: #fff;
 }
 .sidebar .widget .widget-title:after {
     content: "";
