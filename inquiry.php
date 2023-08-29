@@ -289,25 +289,7 @@ background-color: #F36C2C;
                                  <div class="col-md-3 col-sm-12">
                                     <div class="contact-form-section">
                                        <label for="">Age<span>*</span></label>
-                                       <input type="number" class="form-control" id="age" placeholder="" name="age" required>
-                                    </div>
-                                 </div>
-                                 <div class="col-md-3 col-sm-12">
-                                    <div class="contact-form-section">
-                                       <label for="">Select unit of time<span>*</span></label>
-                                       <select name="ageunit" id="ageunit" class="form-control" required>
-                                          <option value="" disabled selected>Select unit of time</option>
-                                          <option value="months">Months</option>
-                                          <option value="days">Days</option>
-                                          <option value="years">Years</option>
-                                        </select>
-                                    </div>
-                                 </div>
-
-                                 <div class="col-md-12 col-sm-12">
-                                    <div class="contact-form-section">
-                                       <label for="">Address</label>
-                                       <textarea class="form-control" id="address" name="address" rows="4" placeholder="Message" style="height: 100px;"></textarea>
+                                       <input type="text" class="form-control" id="age" placeholder="" name="age" required>
                                     </div>
                                  </div>
                                  <div class="col-md-3 col-sm-12">
@@ -316,46 +298,26 @@ background-color: #F36C2C;
                                        <input type="text" id="city" name="city" class="form-control" placeholder="City" required>
                                     </div>
                                  </div>
-                                 <div class="col-md-3 col-sm-12">
-                                    <div class="contact-form-section">
-                                       <label for="">Pin Code</label>
-                                       <input type="number" id="pincode" class="form-control" placeholder="" name="pincode">
-                                    </div>
-                                 </div>
-
-                                 <div class="col-md-6 col-sm-12">
-                                    <div class="contact-form-section">
-                                       <label for="">Contact No.</label>
-                                       <input type="number" id="contactno" class="form-control" placeholder="Contact No." name="contactno">
-                                    </div>
-                                 </div>
-
-                                 
                                  <div class="col-md-6 col-sm-12">
                                     <div class="contact-form-section">
                                        <label for="">Email</label>
                                        <input type="email" class="form-control" placeholder="Email" name="email">
                                     </div>
                                  </div>
-
                                  <div class="col-md-6 col-sm-12">
                                     <div class="contact-form-section">
-                                       <label for="">Type of Inquiry<span>*</span></label>
-                                       <select name="inquiry_type" id="inquiry_type" class="form-control" required>
-                                          <option value="" disabled selected>Type of Inquiry</option>
-                                          <option value="Request for an Appointment">Request for an Appointment</option>
-                                          <option value="General">General</option>
-                                        </select>
-                                    </div>
+                                       <div class="row">
+                                          <div class="col-6">
+                                             <label for="">Contact No.</label>
+                                             <input type="number" id="contactno" class="form-control" placeholder="Contact No." name="contactno">
+                                          </div>
+                                          <div class="col-6">
+                                             <label for="">Additional No.</label>
+                                             <input type="number" id="contactno" class="form-control" placeholder="Contact No." name="contactno">
+                                          </div>
+                                       </div>
+                                       </div>
                                  </div>
-
-                                 <div class="col-md-12 col-sm-12">
-                                    <div class="contact-form-section">
-                                       <label for="">Details</label>
-                                       <textarea class="form-control" name="details" rows="4" placeholder="details" style="height: 100px;"></textarea>
-                                    </div>
-                                 </div>
-
                                  <div class="col-md-12">
                                  <div class="g-recaptcha" data-sitekey="6LfFj0klAAAAAKKOOFErwQrbTyQIG1-FIpj192UR"></div>
                                  </div>
