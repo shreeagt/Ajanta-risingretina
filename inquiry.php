@@ -243,7 +243,7 @@ background-color: #F36C2C;
             <div class="pbmit-title-bar-content-inner">
                <div class="pbmit-tbar">
                   <div class="pbmit-tbar-inner container">
-                     <h1 class="pbmit-tbar-title"> Transforming Vision Health <br/> at Rising Retina</h1>
+                     <h1 class="pbmit-tbar-title"> Connect with Us<br/>Your Queries, Our Expertise </h1>
                   </div>
                </div>
                <!-- <div class="pbmit-breadcrumb">
