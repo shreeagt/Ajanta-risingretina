@@ -231,10 +231,10 @@ background-color: #F36C2C;
       </header>
 
 
-      <div class="pbmit-title-bar-wrapper position-relative">
+
+     <div class="pbmit-title-bar-wrapper position-relative">
          <div class="img-cover">
-         <img src="images/inquiry-bg.jpg" alt="" class="w-100" srcset="">
-            <!-- <img src="images/bg/title.png" alt="" class="w-100" srcset=""> -->
+            <img src="images/inquiry-bg.jpg" alt="overview" class="w-10" srcset="">
          </div>
          
         <div class="container banner-container">
@@ -242,22 +242,14 @@ background-color: #F36C2C;
             <div class="pbmit-title-bar-content-inner">
                <div class="pbmit-tbar">
                   <div class="pbmit-tbar-inner container">
-                     <h1 class="pbmit-tbar-title d-none d-sm-block d-md-block"> Connect with Us<br/>Your Queries, Our Expertise </h1>
-                     <p class="d-lg-block text-white fw-bold">Contact Us</p>
+                     <h1 class="pbmit-tbar-title"> Connect with Us<br/>Your Queries, Our Expertise </h1>
+                     <p class="d-lg-block text-white fw-bold">Inquiry Now</p>
                   </div>
-               </div>
-               <!-- <div class="pbmit-breadcrumb">
-                  <div class="pbmit-breadcrumb-inner">
-                     <span><a title="" href="/" class="home"><span>Rising Retina Clinic</span></a></span>
-                     <span class="sep"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
-                     <span><span class="post-root post post-post current-item">Infrastructure</span></span>
                   </div>
-               </div> -->
             </div>
          </div>
         </div>
      </div>
-
 
 
 
