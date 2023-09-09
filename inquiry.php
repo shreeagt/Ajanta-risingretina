@@ -233,7 +233,7 @@ background-color: #F36C2C;
 
       <div class="pbmit-title-bar-wrapper position-relative">
          <div class="img-cover">
-         <img src="images/inquiry-bg.jpg" alt="" class="w-100 d-none d-sm-block" srcset="">
+         <img src="images/inquiry-bg.jpg" alt="" class="w-100" srcset="">
             <!-- <img src="images/bg/title.png" alt="" class="w-100" srcset=""> -->
          </div>
          
@@ -242,7 +242,8 @@ background-color: #F36C2C;
             <div class="pbmit-title-bar-content-inner">
                <div class="pbmit-tbar">
                   <div class="pbmit-tbar-inner container">
-                     <h1 class="pbmit-tbar-title"> Connect with Us<br/>Your Queries, Our Expertise </h1>
+                     <h1 class="pbmit-tbar-title d-none d-sm-block d-md-block"> Connect with Us<br/>Your Queries, Our Expertise </h1>
+                     <p class="d-lg-block text-white fw-bold">Contact Us</p>
                   </div>
                </div>
                <!-- <div class="pbmit-breadcrumb">

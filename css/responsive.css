@@ -1181,8 +1181,13 @@ body {
 		margin: 0;
 	}
 }
-@media (max-width: 1500px){
-
+@media (max-width: 786px){
+	.pbmit-tbar-title {
+		font-size: 11px;
+	}
+	.d-md-block {
+		display: block;
+	}
 }
 @media only screen and (max-width: 1024px) and (min-width: 768px){
 /** project-single-detail **/	
