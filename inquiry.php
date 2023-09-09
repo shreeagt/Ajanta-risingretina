@@ -234,7 +234,7 @@ background-color: #F36C2C;
 
      <div class="pbmit-title-bar-wrapper position-relative">
          <div class="img-cover">
-            <img src="images/inquiry-bg.jpg" alt="overview" class="w-10" srcset="">
+            <img src="images/inquiry-bg.png" alt="overview" class="w-10" srcset="">
          </div>
          
         <div class="container banner-container">
