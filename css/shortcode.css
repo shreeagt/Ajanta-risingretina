@@ -971,7 +971,8 @@ div#clock span:first-child {
 .pbmit-portfolio-style-1:hover .pbminfotech-icon-box {
     visibility: visible;
     opacity: 1;
-    right: 40px;
+    right: 178px;
+    top: 98px;
 }
 .pbmit-portfolio-style-1.col-md-4 .pbminfotech-box-content{
     left: -20px;

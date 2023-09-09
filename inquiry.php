@@ -233,8 +233,7 @@ background-color: #F36C2C;
 
       <div class="pbmit-title-bar-wrapper position-relative">
          <div class="img-cover">
-         <img src="images/bg/inquiry.jpg" alt="" class="w-100 d-none d-sm-block" srcset="">
-            <img src="images/bg/inquiry-mob.jpg" alt="" class="w-100 d-block d-sm-none " srcset="">
+         <img src="images/inquiry-bg.jpg" alt="" class="w-100 d-none d-sm-block" srcset="">
             <!-- <img src="images/bg/title.png" alt="" class="w-100" srcset=""> -->
          </div>
          
