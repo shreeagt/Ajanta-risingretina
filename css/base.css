@@ -964,3 +964,7 @@ background-color: #222021;
     -o-transform: translateY(0);
     transform: translateY(0);
 }
+span.error-message {
+    color: #f36c2c;
+    font-size: 12px;
+}
