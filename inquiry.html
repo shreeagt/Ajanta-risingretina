@@ -175,7 +175,7 @@ background-color: #F36C2C;
                                                </li>
 
                                                 <li class="dropdown d-xl-none active">
-                                                   <a href="/inquiry.php">Inquiry</a>
+                                                   <a href="/inquiry.html">Inquiry</a>
                                                </li>
 
                                                 <li class="dropdown d-xl-none">
@@ -217,7 +217,7 @@ background-color: #F36C2C;
                                        </div> -->
                                        <div class="menu-right-box d-flex align-items-center">
                                           <div class="pbmit-header-button">
-                                             <a href="inquiry.php" class="pbmit-btn">Appointment</a>
+                                             <a href="inquiry.html" class="pbmit-btn">Appointment</a>
                                           </div>
                                        </div>
                                     </div>
@@ -1388,7 +1388,11 @@ background-color: #F36C2C;
     <!-- AOS -->
     <script src="js/aos.js"></script>
     <!-- Scripts JS -->
-    <script src="js/scripts.js"></script><a href="#" class="scroll-to-top">
+    <script src="js/scripts.js"></script>
+    <script src="js/contact.js"></script>
+
+
+<a href="#" class="scroll-to-top">
         <!-- <i class="pbmit-base-icon-up-open-big"></i>
         <i class="pbmit-base-icon-up-open-big"></i> -->
         <i class="fa fa-angle-up"></i>
@@ -1398,71 +1402,7 @@ background-color: #F36C2C;
     <script src="revolution/rbtools.min.js"></script>
     <script src="revolution/rs6.min.js"></script>
 
-    <script>
-      $(document).ready(function () {
 
-
-
-
-
-$('.contact-form').on('submit', function (e) {
-    e.preventDefault();
-    var name = $.trim($('input[name="name"]').val());
-    var email = $.trim($('input[name="email"]').val());
-    var phone = $.trim($('input[name="contactno"]').val());
-     var age = $.trim($('input[name="age"]').val());
-    // Validate the email using a regular expression
-    if (!isValidEmail(email)) {
-        $('.labelError.email').html('<span class="error-message">Please enter valid email</span>').show();
-        fadeOutError('.labelError.email');
-        return;
-    } else {
-        $('.labelError.email').hide();
-    }
-
-    if (!isValidPhone(phone)) {
-        $('.labelError.phone_number').html('<span class="error-message">Please enter a valid 10-digit phone number</span>').show();
-        fadeOutError('.labelError.phone_number');
-        return;
-    } else {
-        $('.labelError.phone_number').hide();
-    }
-
-    var formData = $(this).serialize();
-    $.ajax({
-        // url: '/new-user',
-        url: '/send-otp', // Change this URL to match your route
-        type: 'POST',
-        data: formData,
-        success: function (response) {
-            console.log('Form submitted successfully:', response.message);
-
-            // You can perform any additional actions or show messages here
-        },
-        error: function (error) {
-            console.error('An error occurred:', error);
-            // You can display an error message or take other actions here
-        }
-    });
-
-    // Function to validate email using a regular expression
-    function isValidEmail(email) {
-        var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        return emailRegex.test(email);
-    }
-
-    // Function to validate phone number using a regular expression for exactly 10 digits
-    function isValidPhone(phone) {
-        var phoneRegex = /^\d{10}$/;
-        return phoneRegex.test(phone);
-    }
-
-
-
-
-});
-});
-    </script>
  
 </body>
 </html>

@@ -52,7 +52,7 @@ if ($conn->query($sql) === TRUE) {
 
     <script>
         // alert("Form submitted successfully");
-        window.location.href = "inquiry.php?msg=Form submitted successfully";
+        window.location.href = "inquiry.html?msg=Form submitted successfully";
     </script>
 <?php
   echo "Form submitted successfully";
