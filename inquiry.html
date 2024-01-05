@@ -1,11 +1,12 @@
 
 
-<html class="no-js" lang="en">
+   <html class="no-js" lang="en">
     <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Enquiry-Risingretina Eye Hospital in Ahmedabad</title>
     <meta name="robots" content="noindex, follow">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <link rel="canonical" href="https://risingretina.com/inquiry" />
     <meta name="description" content="If you're looking for a top-rated eye hospital in Ahmedabad, Risingretina Eye Hospital in Satellite, specifically at Shivranjani Cross Roads, may be a great option. Their expert eye doctor and surgeon (ophthalmologist) can provide high-quality care if you're in need of an eye center specialist near you.">
     <meta name="keywords" content="Eye Hospital in Ahmedabad, Eye Doctor in Ahmedabad, Eye Specialist in Ahmedabad, Best Eye Hospital in Ahmedabad, Retina Specialist in Ahmedabad, Eye Care Hospital Ahmedabad, Eye health tips"/>
@@ -79,10 +80,46 @@ background-color: #F36C2C;
     padding: 100px 0px 100px 0px;
 }
 
+.custom-modal {
+    display: none;
+    position: fixed;
+    background: #004215;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #157a18;
+    padding: 20px;
+    /* border: 1px solid #888; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    color: #fff;
+}
+
+.custom-close {
+  float: right;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.custom-close:hover {
+  color: #f00;
+}
+
+.custom-modal-content {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
  </style>
+
+
 
  
  <body data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
+
+   
+
     <!-- page wrapper -->
     <div class="page-wrapper">
 
@@ -236,6 +273,12 @@ background-color: #F36C2C;
          </div>
       </header>
 
+      <div id="customModal" class="custom-modal">
+         <div class="custom-modal-content">
+           <span class="custom-close">&times;</span>
+           <p>Form submitted successfully!</p>
+         </div>
+       </div>
 
 
      <div class="pbmit-title-bar-wrapper position-relative">
@@ -310,12 +353,12 @@ background-color: #F36C2C;
                                        <div class="row">
                                           <div class="col-6">
                                              <label for="">Contact No.</label>
-                                             <input type="number" id="contactno" class="form-control" placeholder="Contact No." name="contactno">
+                                             <input type="number" id="contactno" class="form-control" placeholder="Contact No." name="phone">
                                              <span class="labelError phone_number"></span>
                                           </div>
                                           <div class="col-6">
                                              <label for="">Additional No.</label>
-                                             <input type="number" id="contactno" class="form-control" placeholder="Contact No." name="contactno">
+                                             <input type="number" id="contactno" class="form-control" placeholder="Contact No." name="addtional_phone">
                                           </div>
                                        </div>
                                        </div>
@@ -1389,6 +1432,7 @@ background-color: #F36C2C;
     <script src="js/aos.js"></script>
     <!-- Scripts JS -->
     <script src="js/scripts.js"></script>
+    <!-- <script src="js/bookappointment.js"></script> -->
     <script src="js/contact.js"></script>
 
 
